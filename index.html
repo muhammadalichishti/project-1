@@ -1,96 +1,40 @@
-
-<!-- Created By Muhammad Ali -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+        <!-- Content Type Meta tag -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!--Responsive Viewport Meta tag-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        
+        
+		<title>Todo list app</title>
+        
+		<!-- Roboto font embed -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Assets/Css/reset.css">
-    <link rel="stylesheet" href="./Assets/Css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
-        <link rel="icon" href="assets/img/Ali Logo.jpg"  type="image/jpg">
+		<!-- Stylesheets -->
+		<link rel="stylesheet" type="text/css" href="resources/css/reset.min.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	</head>
+	<body>
 
-    <title>Minimalistic Todo-List Web Application | Muhammad Ali</title>
-</head>
+		<header>
+			<input type="text" placeholder="Enter an activity.." id="item">
+			<button id="add">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve"><g><path class="fill" d="M16,8c0,0.5-0.5,1-1,1H9v6c0,0.5-0.5,1-1,1s-1-0.5-1-1V9H1C0.5,9,0,8.5,0,8s0.5-1,1-1h6V1c0-0.5,0.5-1,1-1s1,0.5,1,1v6h6C15.5,7,16,7.5,16,8z"/></g></svg>
+			</button>
+		</header>
 
-<body>
-    <div class="app">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <header class="header">
-                <h1 class="header-title">My Categories</h1>
-                <form class="sidebar-form" data-new-category-form>
-                    <div class="form-control">
-                        <input type="text" placeholder="Enter Category" data-new-category-input>
-                    </div>
-                    <button class="btn btn-primary">
-                        <i class="fa fa-plus" aria-hidden="true"></i> Add Category
-                    </button>
-                </form>
-            </header>
-            <ul class="sidebar-list" data-categories>
-                <li class="sidebar-item">All Categories</li>
-               
-                <li class="sidebar-item">
+		<div class="container">
+			<!-- Uncompleted tasks -->
+			<ul class="todo" id="todo"></ul>
 
-            </ul>
-        </aside>
+			<!-- Completed tasks -->
+			<ul class="todo" id="completed"></ul>
+		</div>
 
-        <!-- Main -->
-        <main class="main">
-            <!-- Header -->
-            <header class="header">
-                <div>
-                    <h1 class="header-title">Welcome Back <strong></strong></h1>
-                    <div class="currently-viewing" data-currently-viewing>You are currently viewing All Categories</div>
-                </div>
-
-                <!-- Create Todo Form -->
-                <form class="create-todo-form" data-new-todo-form>
-                    <div class="form-control">
-                        <select data-new-todo-select required>
-                            <option value="">All Categories</option>
-                        </select>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" data-new-todo-input placeholder="Enter Todo" required>
-                    </div>
-                    <button class="btn btn-primary">
-                        <i class="fa fa-plus" aria-hidden="true"></i> Add Todo
-                    </button>
-                </form>
-
-                <!-- Update Todo Form -->
-                <form class="edit-todo-form" data-edit-todo-form>
-                    <div class="form-control">
-                        <select data-edit-todo-select>
-                            <option value="0">All Categories</option>
-                        </select>
-                    </div>
-                    <div class="form-control">
-                        <input type="text" data-edit-todo-input placeholder="Enter Todo" required>
-                    </div>
-                    <button class="btn btn-primary">Save</button>
-                </form>
-            </header>
-
-            <!-- Cards -->
-            <section class="todos-container" data-cards>
-
-                    </div>
-                </div>
-            </section>
-        </main>
-    </div>
-    <script src="/Assets/Script/main.js"></script>
-</body>
-
-  <!-- Signature | Muhammad Ali -->
-
-<p>Developed by <a href="https://mu-ali.github.io/"target="_blank">Muhammad Ali</a></p>
-
+		<!-- JavaScripts -->
+		<script src="resources/js/main.js"></script>
+	</body>
 </html>

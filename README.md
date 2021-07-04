@@ -1,54 +1,63 @@
-# Modern Todo List | HTML, CSS, and JavaScript
+# Project 1
+# Todo List
 
-Developed By Muhammad Ali
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Description
-[View Live Project](https://mu-ali.github.io/project-1/)
-
-## Steps To Success:
-### Project setup and css reset
-1. ```Create index.html, main.css, reset.css and main.js```
-2. ```Create HTML5 Boilerplate```
-3. ```Link css and js files in HTML```
-4. ```Copy and paste mayer reset sheet into reset.css```
-5. ```Add global styles to main.css```
-### Create and style app container
-1. ```Create div.app container```
-2. ```Style div.app container```
-
-### Create Sidebar
-1. ```Create aside.sidebar```
-2. ```Create header.header```
-3. ```Create h1.title```
-4. ```Create form.sidebar-form w/ data-new-category data att.```
-5. ```Create div.form-control > input w/ data-new-category-input```
-6. ```Create button.btn.btn-primary > plus icon```
-7. ```Create ul.sidebar-list w/ data-categories```
-8. ```li.sidebar-item > input.sidebar-color```
-9. ```Style sidebar```
-
-### Create Main Area
-1. ```Create main.main```
-2. ```Create header.header```
-3. ```h1.header-title```
-4. ```div.currently-viewing w/ data-currently-viewing```
-5. ```form.create-todo-form w/ data-new-todo-form```
-6. ```select data-new-todo-select```
-7. ```input data-new-todo-input```
-8. ```button.btn.btn-primary with icon```
-9. ```form.edit-todo-form w/ data-edit-todo-form```
-10. ```select data-edit-todo-select```
-11. ```input data-edit-todo-input```
-12. ```button.btn.btn-primary w/ save```
-13. ```Style main area```
-
-### Cards
-1. ```section.todos-container w/ data-cards```
-2. ```div.todo with inline styles```
-3. ```div.todo-tag w/ inline styles```
-4. ```div.todo-description```
-5. ```div.todo-action with edit and delete icons```
-6. ```Styles cards```
+It is a simple tool for remembering things and it uses computer storage to save the text. It is made by using only Html, Css and Java.
 
 
+## Features
 
+<table>
+  <tr>
+    <td><h3>SNo</h3></td>
+    <td><h3 align="center">Screenshots</h3></td>
+  </tr>
+
+  <tr>
+    <td>1.</td>
+    <td>
+      <p align="center">
+      <img src="./Readme Pictures/Todo List.PNG" title="Desktop View" alt="Desktop View Picture" />
+      <br />
+      Desktop View
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>
+      <p align="center">
+      <img src="./Readme Pictures/Todo List (1) .PNG" title="Todo List (1) .PNG" alt="Todo List (1) .PNG Picture" />
+      <br />
+      Mobile View
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+## Contributing
+
+### Step 1
+- Option 1
+  - :fork_and_knife: Fork this repository
+- Option 2
+  -  :dancers: Clone this repo to your local machine using ```git clone https://github.com/mu-ali/project-1.git```
+
+### Step 2
+- **HACK AWAY** :hammer: :hammer: :hammer:
+
+### Step 3
+- :repeat: Create a pull request using https://github.com/mu-ali/project-1/compare/
+
+
+## License
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+Full license: [MIT License](LICENSE)
+
+Description of MIT License in Simple Words: Ofcourse you can use this for your project! Just make sure to say where you got this from :) 
+<br/>
+Special Note: It took me several weeks to complete this project so kindly star the repository if you liked it. 
